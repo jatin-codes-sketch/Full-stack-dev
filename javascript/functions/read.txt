@@ -1,0 +1,6 @@
+A function os a block of code that perform a specific task.
+Function makes teh code reusable. You can declare it once and use it multiple times.
+Function makes the program easier as each small task is divided into a function.
+Function increase readability.
+DRY: Don't Repeat Yourself
+Function name(parameter ifany){...}
