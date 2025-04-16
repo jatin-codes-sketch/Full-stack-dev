@@ -24,3 +24,29 @@ console.log(person); //  person object after adding new property
 // delete property from the object
 delete person.age;
 console.log(person); 
+
+
+
+
+// Enchanced object literals
+// when we use the shorthand property name syntax, we can omit the property name if it is the same as the variable name
+// this is called shorthand property name syntax
+
+function createPerson(name, age) {
+    return {
+        name: name,
+        age: age
+    };
+}
+// this is the normal way to create an object using function
+// this is the shorthand property name syntax
+function createPerson(name, age) {
+    return {
+        name,
+        age,
+        info:()=>`name is ${name} and age is ${age}` // this is the shorthand property name syntax
+    };
+}
+// this is the shorthand property name syntax
+console.log(createPerson("jatin", 20)); // this code is for print the person object using shorthand property name syntax
+console.log(createPerson("jatin", 20).info()); // this code is for print the person object using shorthand property name syntax
