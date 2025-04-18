@@ -1,0 +1,11 @@
+
+{
+    "name":"jatin",
+    "age":22,
+    "hobbies":["cricket","football","coding"], 
+    "address":{
+        "city":"Himachal Pradesh",
+        "state":"Himachal Pradesh"
+    },
+    "isStudent":false
+}

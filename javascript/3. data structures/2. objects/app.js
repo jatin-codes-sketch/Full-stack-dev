@@ -50,3 +50,14 @@ function createPerson(name, age) {
 // this is the shorthand property name syntax
 console.log(createPerson("jatin", 20)); // this code is for print the person object using shorthand property name syntax
 console.log(createPerson("jatin", 20).info()); // this code is for print the person object using shorthand property name syntax
+
+// the for ...in loop in js is used to iterate over the enumerable properties of an object. It is a way to loop through the keys (property names) of an object'n/.strghfwer    ., 
+
+const person1={
+    product:"apple",
+    quality:"good"
+};
+
+for (let keys in person1){
+    console.log(keys, person1[keys]);
+}

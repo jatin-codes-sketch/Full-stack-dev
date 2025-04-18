@@ -8,7 +8,7 @@ function greet() {
 //  call or run or  execute the function 
 greet();
 
-// function with parameters
+// function with parameters or default constructor 
 function sayhello(name = "jatin") {
     console.log("Hello, " + name + "!");
 }
