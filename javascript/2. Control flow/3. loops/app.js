@@ -43,3 +43,12 @@ do{
 }while(a<=5)
 
 
+// when we call the forEach helper we pass in anonymous callback function, this function gets called one time for every elements in the array whatever is inside the function that logic happens
+
+const words=["hello","world","jatin","here"]
+
+const capWords=words.forEach((word,index,arr)=>{
+    arr[index]=word[0].toUpperCase()+word.substring(1);
+})
+
+console.log(words);
